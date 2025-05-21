@@ -8,4 +8,6 @@ print(estudiante1.setCarrera("Medicina"))
 
 print(profesor1.getNombre())
 print(profesor1.getDepartamento())
+print(profesor1.getCategoria())
 print(profesor1.setCategoria("Ocacional"))
+print(profesor1.getCategoria())

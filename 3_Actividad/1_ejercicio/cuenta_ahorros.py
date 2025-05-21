@@ -30,4 +30,4 @@ class CuentaAhorros(Cuenta):
         print(f"Saldo: ${self._saldo}")
         print(f"Comisión Mensual: ${self._comision_mensual}")
         print(f"Número de Transacciones: {self._numero_consignaciones + self._numero_retiros}")
-        print(f"Número de Consignaciones: {self._numero_consignaciones}\n")
+    
