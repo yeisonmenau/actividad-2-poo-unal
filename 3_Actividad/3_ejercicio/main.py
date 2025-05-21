@@ -1,8 +1,8 @@
-from tableta import Tableta
-from dispositivo_informatico import DispositivoInformatico
+from perro import Perro, PerroPequeño, RazaPerroPequeño
+from gato import Gato, GatoPeloLargo, RazaGatoPeloLargo
 
-dispositivo = DispositivoInformatico()
-tableta = Tableta("Dell")
+perrito = PerroPequeño("Fido", 3, "Marrón", 5.2, True, RazaPerroPequeño.CANICHE)
+Perro.sonido()
 
-print(dispositivo)
-print(tableta)
+gatito = GatoPeloLargo("Misu", 2, "Blanco", 0.8, 1.5, RazaGatoPeloLargo.ANGORA)
+Gato.sonido()
